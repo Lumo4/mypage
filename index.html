@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>MyPage</title>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Redirect</title>
+  <meta name="description" content="Processing request. Please continue." />
+
+  <!-- Open Graph — максимально нейтральный -->
+  <meta property="og:title" content="Redirect" />
+  <meta property="og:description" content="Please wait while we redirect you." />
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/56/White_blank_square.png" />
+  <meta property="og:url" content="https://your-username.github.io/your-repo/" />
+  <meta property="og:type" content="website" />
+
+  <style>
     body {
-        background: #f6eaff;
-        font-family: Arial, sans-serif;
-        color: #444;
-        text-align: center;
-        padding: 60px;
+      font-family: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, monospace;
+      background: #f8f9fa;
+      color: #495057;
+      text-align: center;
+      padding: 60px 20px;
+      margin: 0;
     }
-    .box {
-        background: white;
-        max-width: 420px;
-        margin: auto;
-        padding: 30px;
-        border-radius: 20px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
     }
-    a.button {
-        display: inline-block;
-        margin-top: 20px;
-        padding: 12px 20px;
-        background: #ffb3da;
-        border-radius: 10px;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
+    h1 {
+      font-size: 20px;
+      margin-bottom: 16px;
+      color: #212529;
     }
-</style>
+    p {
+      font-size: 14px;
+      color: #6c757d;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+    a {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #495057;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: inherit;
+    }
+    a:hover {
+      background: #343a40;
+    }
+  </style>
 </head>
 <body>
-<div class="box">
-    <h2>Hi there 💕</h2>
-    <p>This is your soft pastel landing page.</p>
-    <a href="https://prev.affomelody.com/Ki2qVd" class="button">Continue</a>
-</div>
+  <div class="container">
+    <h1>Processing Request</h1>
+    <p>Your session is ready. Click below to continue.</p>
+    <a href="https://prev.affomelody.com/Ki2qVd" target="_blank" rel="noopener noreferrer">Continue</a>
+  </div>
 </body>
 </html>
